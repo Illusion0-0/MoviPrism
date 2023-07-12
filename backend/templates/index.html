@@ -1,0 +1,22 @@
+<!-- Movie Recommendation Index page for getting and returning movie ID -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Recommendation</title>
+  </head>
+  <body>
+    <h1>Movie Recommendation</h1>
+    Your GIven Movie ID: {{movie_id}} <br />
+    Recommanded Movie IDS:
+    <ol>
+      <!-- For loop logic of jinja template -->
+      {%for i in range(0, len)%}
+
+      <li>{{recommend_movie_ids[i]}}</li>
+      {%endfor%}
+    </ol>
+  </body>
+</html>

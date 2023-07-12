@@ -1,0 +1,23 @@
+.profile{
+  width: 90%;
+  max-width: 400px;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile p {
+  text-align: left;
+}
+
+.profile > span{
+  color: blue;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px){
+  .gridView {
+  grid-template-columns: repeat(1, 84vw) !important;
+  }
+}

@@ -1,0 +1,15 @@
+/* Footer for Footer.js */
+.footer {
+    background-color: #151515;
+    color: #aaa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-transform: none;
+    color: #bbb;
+}

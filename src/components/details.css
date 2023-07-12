@@ -1,0 +1,161 @@
+.detailsPage {
+    /* height: 90vh; */
+    overflow: hidden;
+    position:relative;
+    display: flex;
+    background-position: center;
+    align-items: flex-end;
+    padding-top: 125px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.9;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.movieBackdrop {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.blurImg {
+    filter: blur(10px);
+}
+
+.details {
+    padding: 15px 50px;
+    width: 55%;
+    color: white;
+    text-align: left;
+    height: fit-content;
+    background-color: #222222;
+    border-radius: 10px;    
+}
+.details:hover {
+    background-color: #333333;
+}
+.movieReleaseDateD {
+    margin-bottom: -5px;
+    font-weight: lighter;
+}
+
+.movieTitleD {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0 0;
+}
+
+.movieDescriptionD {
+    padding-bottom: 1px;
+}
+
+.rateAndLangD {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieRatingD {
+    font-weight: lighter;
+    text-decoration: none !important;
+}
+.movieLanguageD {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.moviePosterD {
+    width: 250px;
+    border-radius: 5px;    
+}
+
+.moviePosterD:hover {
+    background-color: #222222;
+    /* animation: none; */
+}
+
+.moviePosterD {
+    animation-name: shadowAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes shadowAnimation {
+    from {
+        box-shadow: rgb(0 0 0) 0px 10px 15px -3px, rgb(0 0 0) 0px 4px 6px -2px;
+        transform: scale(1.0);
+    } to {
+        box-shadow: rgb(0 0 0 / 80%) 0px 20px 25px -5px, rgb(0 0 0 / 0%) 0px 10px 10px -5px;
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 1000px) {
+    .detailsPage {
+        background-position: center;
+        background-size: cover;
+    }
+    .details {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .movieReleaseDateD {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .movieTitleD {
+        font-size: 18px;
+    }
+    .movieDescriptionD {
+        font-size: 14px;
+    }
+    .movieRatingD {
+        font-size: 10px;
+    }
+    .movieLanguageD {
+        font-size: 10px;
+    }
+    .moviePosterD {
+        display: none;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .details{
+        width: 90%
+    }
+}
+
+.btn {
+    font-size: 15px;
+    text-transform: uppercase;}  
+.btn-swipe-left {  
+    display: block;  
+    overflow: hidden;  
+    text-align: center;  
+    max-width: 180px;  
+    padding: 0 5px;  margin: auto;  
+    text-transform: uppercase;  
+    background-color: #cbcbcb;    
+    text-decoration: none;
+    border-radius: 5px;
+}  
+.btn-swipe-left:hover span {  color: rgb(255, 255, 255);}  
+.btn-swipe-left--black {  
+    color: rgb(0 0 0); font-weight: 600;
+    border: 2px solid rgb(51, 51, 51);
+}  
+.btn-swipe-left--black::before {  background-color: rgb(51, 51, 51);}  
+

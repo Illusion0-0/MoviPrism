@@ -1,0 +1,75 @@
+
+.Search-Bar {
+    /* margin: 0 auto; */
+    z-index: 2;
+    position: relative;
+}
+
+.Search-Bar-Main {
+    position: relative;
+}
+
+.Search-Bar-Backdrop {
+    z-index: 1;
+    top : -50px;
+    left: -100vw;
+    width: 140vw;
+    height: 120vh;
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+}
+
+.Search-Bar input {
+    padding : 4px;
+    width: 280px;
+    border-radius: 5px;
+
+}
+
+.Search-Result-Not-Found {
+    color: #444;
+    padding: 50% 0;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.Search-Bar-Results {
+    text-align: left;
+    position : absolute;
+    width: 400px;
+    background-color: white;
+    left: -50%;
+    transform: translate(5%);
+}
+
+.Search-Bar-Results a{
+    text-decoration: none;
+}
+
+.Search-Bar-Results > img {
+    margin: 40% 40%;
+}
+
+.Search-Result-Item {
+    color: #444;
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    width: 400px;
+}
+
+.Search-Result-Item img{
+    width: auto;
+    height: 100px;
+    margin-left: 10px;
+    grid-row: 1 / 3;
+}
+
+.Search-Result-Movie-Name {
+    font-size: 1rem;
+    color: #444;
+}
+
+.Search-Result-Movie-Genre {
+    font-size: .85rem;
+    color: #444;
+}

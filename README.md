@@ -86,7 +86,8 @@ That's It! You are good to go.
 
 ## Artitecture
 
-<img width="554" alt="Capture" src="https://user-images.githubusercontent.com/76676066/170882707-2784ec68-1dce-4dcb-a3e1-8883b22d0b32.PNG">
+<img width="554" alt="Capture" src="https://user-images.githubusercontent.com/76676066/170882707-2784ec68-1dce-4dcb-a3e1-8883b22d0b32.PNG"> 
+<img width="500" alt="UML" src="UML.png">
 
 ## Tech Stack
 <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/react.svg" alt="React Js" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/javascript.svg" alt="Javascript" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/firebase.svg" alt="Firebase" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/html-5.svg" alt="HTML" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/css-3.svg" alt="CSS" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/python.svg" alt="Python" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/numpy-icon.svg" alt="NumPy" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/pandas-icon.svg" alt="Pandas" width="21px" height="21px"> <img src="https://raw.githubusercontent.com/get-icon/geticon/master/icons/flask.svg" alt="Flask" width="21px" height="21px">

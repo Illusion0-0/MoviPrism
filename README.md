@@ -53,13 +53,33 @@ Install Requirements for backend
 cd backend/
 pip install -r requirements.txt
 ```
+Create env file in backend directory
+```bash
+touch .env
+```
+Add following lines to .env file
+```bash
+export API_KEY=<YOUR_TMDB_API_KEY>
+```
+
+
 Run Backend
 ```bash
 flask run
 ```
+
+Open a new terminal
+Create .env.local file in root directory
+```bash
+touch .env.local
+```
+Add following lines to .env.local file
+```bash
+REACT_APP_TMDB_API_KEY=<YOUR_TMDB_API_KEY>
+```
+
 Run Frontend
 ```bash
-cd ..
 npm start
 ```
 That's It! You are good to go.
